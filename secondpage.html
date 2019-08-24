@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="css/secondpage_style.css">
+	<title>Cars</title>
+	</head>
+	<body>
+	<section id="showcase">
+		<nav class="topnav">
+			<a href="firstpage.html">Home</a>
+			<a href="secondpage.html">Sign Up</a>
+			<a href="thirdpage.html">Brands</a>
+			<a href="fourthpage.html">The Dream Collection</a>
+		</nav>
+		
+		<h1>Join Our Commuinty</h1>
+	</section>
+	
+	<section id="personal">
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <p><label>First Name:</label><input type="text"></p>
+        <p><label>Last Name:</label><input type="text"></p>
+		<p><label>Phone Number:</label><input type="number"></p>
+     <p><label>Country:</label><select> 
+         <option>UK</option>
+        <option>NY</option>
+        <option>CA</option>
+		<option>NJ</option>
+		<option>CA</option>
+        <option>NY</option>
+      </select></p>
+	
+	  
+     <p><label>Bio:</label><br><textarea rows="5" cols="40"></textarea>
+
+      </fieldset>
+      <fieldset>
+        <legend>Sign In Information</legend>
+        <p><label>Create Username:</label><input type="text"></p>
+		<p><label>Email:</label><input type="email"></p>
+		<p><label>Confirm Email:</label><input type="email"></p>
+        <p><label>Password:</label><input type="password"></p>
+        <p><label>Confirm Password:</label><input type="password"></p>
+        <input type="checkbox"><label>I agree to the <a href="terms">terms and conditions</a></label></p>
+
+      </fieldset>      
+    </form>
+	<button id="complete" onClick="finish();">Submit<a href="firstpage.html"></a></button>
+	</section>
+  </body>
+  <script id="button">
+  function finish(){
+  alert("Form Submitted");
+  }
+  </script>
+  
+  
+</html>

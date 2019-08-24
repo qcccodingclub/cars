@@ -1,0 +1,45 @@
+*{
+	box-sizing:border-box;
+}
+.topnav{
+	width:100%;
+	background:transparent;
+}
+.topnav a{
+	padding:20px 20px;
+	font-size:20px;
+	text-decoration:none; /*Take off the underline*/
+	color:white;
+	display:inline-block;
+}
+.topnav a:hover{
+	background:red;
+}
+html,body{
+	height:100%; /*height of image*/
+	margin:0; /* To fix gap on top*/
+	background-image:url('../IMAGES/signup.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+}
+#showcase{
+	font-size:40px;
+	margin:0;
+	color:white;
+	width:50%;
+}
+#showcase h1{
+	margin:0;
+	margin-top:2%;
+	background:black;
+}
+#personal legend{
+	color:white;
+}
+#personal label{
+	color:white;
+}
+#button{
+	
+}

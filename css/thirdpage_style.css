@@ -1,0 +1,70 @@
+*{
+	box-sizing:border-box;
+}
+.topnav{
+	width:100%;
+	background:black;
+}
+.topnav a{
+	padding:20px 20px;
+	font-size:20px;
+	text-decoration:none;
+	color:white;
+	display:inline-block;
+}
+.topnav a:hover{
+	background:red;
+}
+html,body{
+	height:100%;
+	margin:0; 
+}
+#design{
+	background:white;
+	height:100%;   
+	margin:0;
+	background-position:center;  
+}
+.title{
+	color:white;
+	font-size:40px;
+	margin-right:auto;	
+	margin-left:auto;
+	text-align:center;
+	width:50%;
+} 
+.title h2{
+	margin:0;
+	margin-top:20px;
+	background:#053853;
+  
+}
+.wrapper{
+	width:100%;
+	margin:auto;
+	
+}
+.card{
+	width:30%;
+	background:#053853;
+	margin-top:20px;
+	color:white;
+	display:inline-block;  
+	margin-left:2%;
+}
+.card-header{      
+	width:100%;	      
+	text-align:center;
+	font-size:30px;
+	margin:0;
+	margin-top:5px;
+}
+.card img{
+	width:100%;
+}
+.card p{
+	width:100%;
+	font-size:20px;
+	margin:0;
+	text-align:center;
+}

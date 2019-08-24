@@ -1,0 +1,61 @@
+*{
+	box-sizing:border-box;
+}
+.topnav{
+	width:100%;
+	background:black;
+}
+.topnav a{
+	padding:20px 20px;
+	font-size:20px;
+	text-decoration:none; /*Take off the underline*/
+	color:white;
+	display:inline-block;
+}
+.topnav a:hover{
+	background:red;
+}
+html,body{
+	height:80%; /*height of image*/
+	margin:0; /* To fix gap on top*/
+}
+#showcase{
+	background:url('../IMAGES/banner.jpg');
+	height:100%;
+	background-position:center;
+	background-repeat:none;
+	background-size:cover;
+}
+.showcase-text{
+	color:rgb(74,8,44,100%);
+	width:50%;
+	margin:auto; /*move text or insert spaces to make it look centered*/
+	margin-top:2%;
+}
+.showcase-text h1{
+	font-size:50px;
+	text-align:center;
+	margin:0;
+}
+#showcase1{
+	background:url('../IMAGES/supercar.jpg');
+	height:100%;
+	background-position:center;
+	background-repeat:none;
+	background-size:cover;	
+}
+.middle{
+	color:rgb(74,8,44,100%);
+	width:50%;
+	margin:auto;
+}
+.middle h1{
+	font-size:50px;
+	text-align:center;
+	margin:0;
+}
+.middle p{
+	color:white;
+	text-align:border-bottom;
+	
+}

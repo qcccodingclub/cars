@@ -1,0 +1,47 @@
+*{
+	box-sizing:border-box;
+}
+.topnav{
+	width:100%;
+	background:black;
+}
+.topnav a{
+	padding:20px 20px;
+	font-size:20px;
+	text-decoration:none; /*Take off the underline*/
+	color:white;
+	display:inline-block;
+}
+.topnav a:hover{
+	background:red;
+}
+html,body{
+	height:100%; /*height of image*/
+	margin:0; /* To fix gap on top*/
+	background:url('../IMAGES/background3.jpg');
+	max-height:100%;
+	max-width:100%;
+	background-repeat:none;
+}
+#showcase{
+
+	
+}
+.showcase-text{
+	color:rgb(74,8,44,100%);
+	width:50%;
+	margin:auto; /*move text or insert spaces to make it look centered*/
+	margin-top:2%;
+}
+.showcase-text h1{
+	font-size:50px;
+	text-align:center;
+	margin:0;
+}
+.design1 h1{
+	color:white;
+	font-size:50px;
+	margin:auto;
+}
+
+
